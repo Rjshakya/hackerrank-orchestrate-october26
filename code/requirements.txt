@@ -1,2 +1,6 @@
 pydantic>=2.0,<3
 pymupdf
+langchain-core>=0.3
+langchain-openai>=0.2
+pillow>=10.0
+python-dotenv>=1.0

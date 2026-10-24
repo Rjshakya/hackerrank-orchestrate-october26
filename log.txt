@@ -273,3 +273,41 @@ repo_root=C:/Users/rajka/Desktop/projects-2026/hackerrank-orchestrate-october26
 worktree=main
 parent_agent=none
 
+## [2026-10-24T22:37:31Z] SESSION START
+
+tool=opencode
+model=muse-spark-1.3-contributor
+Repo Root: C:/Users/rajka/Desktop/projects-2026/hackerrank-orchestrate-october26
+Branch: main
+Worktree: main
+Parent Agent: none
+Language: py
+Time Remaining: not configured
+
+## [2026-10-24T22:42:04Z] Implement PyMuPDF parser and normalised docs
+
+User Prompt (verbatim, secrets redacted):
+okay implement it correctly . with proper types and type checking
+
+Agent Response Summary:
+Added pymupdf latest to requirements and created code/parsers/pdf with typed parser, to_markdown, and cli using import pymupdf and Document.to_markdown per latest docs. Generated 4 Markdown files in code/normalised_docs with file_id and captured_at frontmatter from evidence_files.csv. Verified imports, real PDF conversion, py_compile, and installs in system python and .venv.
+
+Actions:
+* edit code/requirements.txt
+* write code/parsers/__init__.py
+* write code/parsers/pdf/__init__.py
+* write code/parsers/pdf/parser.py
+* write code/parsers/pdf/to_markdown.py
+* write code/parsers/pdf/cli.py
+* shell: pip install pymupdf system and .venv
+* shell: ran normalisation producing 4 MD files
+* shell: py_compile and import verification
+
+Context:
+tool=opencode
+model=muse-spark-1.3-contributor
+branch=main
+repo_root=C:/Users/rajka/Desktop/projects-2026/hackerrank-orchestrate-october26
+worktree=main
+parent_agent=none
+
